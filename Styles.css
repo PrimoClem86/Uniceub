@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+nav a {
+    margin: "img/caminhão.png" 20px;
+    margin: "img/caminhão2.png" 20px;
+    text-decoration: none;
+    color: #004080;
+}
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.product {
+    text-align: center;
+    width: 300px
+    margin-bottom: 30px;
+}
+.service-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+.team-member img {
+    border-radius: 50%;
+    width: 120px;
+    height: 160px;
+}
+.form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 60px;
+    border: 1px solid #b8b5b5;
+    border-radius: 10px;
+}
+.form input, .form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form button {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
