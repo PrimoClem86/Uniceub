@@ -20,13 +20,13 @@ nav a {
     color: #004080;
 }
 .container {
-    padding 20px;
+    padding: 20px; 
     background-color: #f1f1f1;
 }
 .product {
-    text-align:center;
-    width: 300px
-    margin-bottom; 30px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 30px;
 }
 .service-images {
     display: flex;
