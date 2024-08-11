@@ -53,17 +53,18 @@ nav a {
 }
 .team {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: wrap;
+    gap: 10px;
 }
 .team-member {
+    margin: 50px;
     text-align: center;
-    margin: 100px;
 }
 .team-member img {
-    border-radius: 50%;
-    width: 150px;
-    height: 160px;
+    border-radius: 70%;
+    width: 160px;
+    height: 180px;
 }
 .form {
     max-width: 1000px;
